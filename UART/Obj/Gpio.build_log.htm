@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\21708078t\Documents\polytech\TP2\tp2.uvproj
+Project File Date:  11/27/2019
+
+<h2>Output:</h2>
+Rebuild target 'TP2'
+assembling STM32F10x.s...
+compiling main.c...
+main.c(103): warning:  #550-D: variable "ret" was set but never used
+      uint8_t ret = 0;
+main.c: 1 warning, 0 errors
+compiling uart.c...
+compiling gpio.c...
+linking...
+Program Size: Code=1076 RO-data=268 RW-data=8 ZI-data=552  
+".\Obj\gpio.axf" - 0 Error(s), 1 Warning(s).
+
+  }uart_t;
+drv/uart-priv.h(66): error:  #757: variable "uart_t" is not a type name
+    uart_t * reg;
+main.c(103): warning:  #550-D: variable "ret" was set but never used
+      uint8_t ret = 0;
+main.c: 2 warnings, 3 errors
+compiling uart.c...
+.\drv/uart-priv.h(54): error:  #130: expected a "{"
+  typedef struct {
+.\drv/uart-priv.h(62): warning:  #940-D: missing return statement at end of non-void function "F_usart_Write"
+  }uart_t;
+.\drv/uart-priv.h(62): error:  #77-D: this declaration has no storage class or type specifier
+  }uart_t;
+.\drv/uart-priv.h(66): error:  #757: variable "uart_t" is not a type name
+    uart_t * reg;
+drv\uart.c(115): error:  #29: expected an expression
+      G_uart[i_id].reg = (uart_t *)base_address; // strore the passed address of the USART peripheral in the G_uart array
+drv\uart.c(115): error:  #65: expected a ";"
+      G_uart[i_id].reg = (uart_t *)base_address; // strore the passed address of the USART peripheral in the G_uart array
+drv\uart.c(155): error:  #132: expression must have pointer-to-struct-or-union type
+      reg = &G_uart[i_id].reg->USART_CR1;  // first we configure the USART_CR1 register
+drv\uart.c(163): error:  #132: expression must have pointer-to-struct-or-union type
+      reg = &G_uart[i_id].reg->USART_CR2;   // then we configure the USART_CR2 register
+drv\uart.c(170): error:  #132: expression must have pointer-to-struct-or-union type
+      reg = &G_uart[i_id].reg->USART_BRR;   // then we configure the USART_BRR register
+drv\uart.c(208): error:  #132: expression must have pointer-to-struct-or-union type
+      reg = &G_uart[i_id].reg->USART_SR;
+drv\uart.c(216): error:  #132: expression must have pointer-to-struct-or-union type
+       reg = &G_uart[i_id].reg->USART_DR;
+drv\uart.c(252): error:  #132: expression must have pointer-to-struct-or-union type
+      reg = &G_uart[i_id].reg->USART_SR;
+drv\uart.c(260): error:  #132: expression must have pointer-to-struct-or-union type
+       reg = &G_uart[i_id].reg->USART_DR;
+drv\uart.c(267): error:  #247: function "F_usart_Write" has already been defined
+  int32_t F_usart_Write(uint32_t i_id,const char * str) // quick & dirty 
+drv\uart.c: 1 warning, 13 errors
+compiling gpio.c...
+".\Obj\gpio.axf" - 16 Error(s), 3 Warning(s).
+Target not created

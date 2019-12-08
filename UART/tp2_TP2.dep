@@ -1,0 +1,21 @@
+Dependencies for Project 'tp2', Target 'TP2': (DO NOT MODIFY !)
+F (.\init\STM32F10x.s)(0x48D88A5A)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Users\21708078t\Documents\polytech\Keil\ARM\RV31\INC-I C:\Users\21708078t\Documents\polytech\Keil\ARM\Pack\ARM\CMSIS\3.20.3\CMSIS\Include-I C:\Users\21708078t\Documents\polytech\Keil\ARM\Pack\Keil\STM32F1xx_DFP\1.0.2\Device\Include-o .\obj\stm32f10x.o --depend .\obj\stm32f10x.d)
+F (.\main.c)(0x5DDE4834)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.-I C:\Users\21708078t\Documents\polytech\Keil\ARM\RV31\INC-I C:\Users\21708078t\Documents\polytech\Keil\ARM\Pack\ARM\CMSIS\3.20.3\CMSIS\Include-I C:\Users\21708078t\Documents\polytech\Keil\ARM\Pack\Keil\STM32F1xx_DFP\1.0.2\Device\Include-DSTM32F10X_MD_VL -o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (C:\Users\21708078t\Documents\polytech\TP2\types.h)(0x5DCA7422)
+I (C:\Users\21708078t\Documents\polytech\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (C:\Users\21708078t\Documents\polytech\TP2\drv\uart-priv.h)(0x5DDC16F2)
+I (C:\Users\21708078t\Documents\polytech\TP2\drv\uart.h)(0x5DDE362C)
+I (C:\Users\21708078t\Documents\polytech\TP2\drv\rcc-priv.h)(0x547831D2)
+I (C:\Users\21708078t\Documents\polytech\TP2\drv\afio-priv.h)(0x54783532)
+F (.\drv\uart.c)(0x5DDE46F1)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.-I C:\Users\21708078t\Documents\polytech\Keil\ARM\RV31\INC-I C:\Users\21708078t\Documents\polytech\Keil\ARM\Pack\ARM\CMSIS\3.20.3\CMSIS\Include-I C:\Users\21708078t\Documents\polytech\Keil\ARM\Pack\Keil\STM32F1xx_DFP\1.0.2\Device\Include-DSTM32F10X_MD_VL -o .\obj\uart.o --omf_browse .\obj\uart.crf --depend .\obj\uart.d)
+I (C:\Users\21708078t\Documents\polytech\TP2\drv\uart-priv.h)(0x5DDC16F2)
+I (C:\Users\21708078t\Documents\polytech\TP2\drv\uart.h)(0x5DDE362C)
+I (C:\Users\21708078t\Documents\polytech\TP2\types.h)(0x5DCA7422)
+I (C:\Users\21708078t\Documents\polytech\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+F (.\drv\uart.h)(0x5DDE362C)()
+F (.\drv\uart-priv.h)(0x5DDC16F2)()
+F (.\drv\rcc-priv.h)(0x547831D2)()
+F (.\drv\afio-priv.h)(0x54783532)()
+F (..\TP1\drv\gpio.c)(0x5DDE2649)()
+F (..\TP1\drv\gpio.h)(0x5DD2BAD8)()
+F (..\TP1\drv\gpio-priv.h)(0x5DD2BA99)()
